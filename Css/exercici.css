@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+        border-color: black;
+        border-top: 20px;
+        border-right: 20px;
+        border-left: 20px;
+        border-bottom: 10px;
+        border-style:solid;
+
+    }
+.fondo-azul {
+        background-color:cadetblue;
+        height: 50px;
+        margin:0;
+        padding: 0;
+    }
+header div{
+    margin:20px auto 20px auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;     
+    border-color: cadetblue;
+    border-width: 20px;
+}
+.subtitulo {
+    border-color: black;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-top: 0;
+    border-style:solid;
+}
+.fondo-verde {
+    background-color:greenyellow;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    text-justify: distribute;
+}
+
+body{
+    background-color: white;
+}
+.contenedor {
+	border-color: black;
+    border: 20px;
+    border-style:solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    background-color: greenyellow;
+    
+  }
+.contenedor p{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.boxleft{
+    display: flex;
+	flex-wrap: wrap;     
+    background-color: greenyellow;
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+	justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+    }
+ul li{
+    list-style: none;
+	display: inline-block;
+	text-align: auto;
+    padding: 10px;
+    
+}
+.boxright{
+    display: flex;
+	flex-wrap: wrap;     
+    background-color: greenyellow;
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+	justify-content: space-around;
+    text-align: left;
+    padding: 0 10px;
+}
+.boxbottom{
+   padding:10px;
+   background-color: greenyellow;
+    
+}
+.anuncio{
+    border-color: black;
+    border-right: 0;
+    border-left: 10px;
+    border-bottom: 0;
+    border-top: 0;
+    border-style:solid;
+    background-color: blueviolet;    
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+    width: 400px;
+        }
+
+.footer {
+    border-color: black;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-top: 20px;
+    padding: 4px 10px 4px 10px;
+    border-style:solid;
+    background-color:greenyellow;
+}
